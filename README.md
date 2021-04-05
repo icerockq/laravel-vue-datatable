@@ -21,7 +21,7 @@ Command to seed your database
 php artisan db:seed
 ```
 
-#Website preview
+##Website preview
 
 With command
 ```bash
