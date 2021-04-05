@@ -14,7 +14,10 @@ and
 ```bash
 npm install
 ```
-
+Run command to generate key
+```bash
+php artisan key:generate
+```
 Run the command to start migrations
 ```bash
 php artisan migrate
