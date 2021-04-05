@@ -15,8 +15,6 @@ class HouseController extends Controller
     {
         $query = House::query();
 
-        DB::enableQueryLog();
-
         if ($request->filled('name')) {
             $query->where('name', 'LIKE', '%' . $request->input('name') . '%');
         }
@@ -43,6 +41,5 @@ class HouseController extends Controller
         }
 
         return $query->get();
-//        dd(DB::getQueryLog());
     }
 }
