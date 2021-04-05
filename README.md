@@ -6,7 +6,11 @@ git clone https://github.com/icerockq/laravel-vue-datatable.git
 ```
 Go to the project folder
 
-Install npm dependencies
+Install dependencies
+```bash
+composer install
+```
+and
 ```bash
 npm install
 ```
